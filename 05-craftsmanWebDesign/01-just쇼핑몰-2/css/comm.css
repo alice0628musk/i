@@ -55,13 +55,11 @@
   height: 200px;
   justify-content: space-between;
   align-items: center;
-  background-color: pink;
 }
 
 .main .section1 {
   width: 30%;
   height: 180px;
-  background-color: aqua;
 }
 
 .footer {
@@ -118,25 +116,37 @@
   height: 200px;
   justify-content: space-between;
   align-items: center;
-  background-color: pink;
 }
 
 .main .section1 {
   width: 30%;
   height: 180px;
-  background-color: aqua;
 }
+
+.section1 .title {
+  border-bottom: 1px solid #000;
+  margin: 0 0 10px 0;
+}
+
+.section1 .title a {
+  display: block;
+  padding: 10px 0px;
+}
+
+.section1 .lst-bbs a {
+  display: block;
+  padding: 5px 0;
+}
+
 
 .main .section2 {
   width: 38%;
   height: 180px;
-  background-color: aqua;
 }
 
 .main .section3 {
   width: 30%;
   height: 180px;
-  background-color: aqua;
 }
 
 .main .section3>ul {
@@ -148,20 +158,13 @@
 
 .goto li {
   width: 50%;
-  background-color: rgb(112, 75, 206);
 }
 
 .goto a {
   display: flex;
   height: 90px;
-  background: red;
   align-items: center;
   justify-content: center;
-}
-
-.goto img {
-  width: 50px;
-  height: 50px;
 }
 
 .footer {
@@ -174,4 +177,13 @@
 
 .sns .lst-sns {
   display: flex;
+}
+
+.sns a {
+  display: block;
+  padding: 10px;
+}
+
+.lst-sns img {
+  width: 30px;
 }
