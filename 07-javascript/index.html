@@ -8,6 +8,111 @@
 </head>
 
 <body>
+  <h1>javascript</h1>
+  <h2>문자 데이터</h2>
+  <script>
+    let myName = "alice";
+    let email = "groove0628@naver.com";
+    let hello = `안녕! ${myName}야`;
+
+    console.log(myName);
+    console.log(email);
+    console.log(hello);
+
+  </script>
+
+  <h2>boolem 데이터</h2>
+  <script>
+    let checked = true;
+    let isShow = false;
+
+    console.log("checked : " + checked);
+    console.log(`isShow : ${isShow}`);
+  </script>
+
+  <h2>Undefied</h2>
+  <!-- 값이 할당되지 않음 -->
+  <script>
+    let undef;
+    let object = { abc: 123 };
+    console.log(undef);
+    console.log(object.abc);
+    console.log(object.xyz);
+    // 할당되지 않았다고 출력됨 abc가 아니니까
+  </script>
+  <h2>null</h2>
+  <!-- 의도적으로 비워놓음 -->
+  <script>
+    let empty = null;
+    console.log(empty);
+  </script>
+  <h2>객체 데이터</h2>
+  <script>
+    let user = {
+      name: "alice",
+      age: 100,
+      isValid: true,
+    };
+    console.log(user.name);
+    console.log(user.age);
+    console.log(user.isValid);
+  </script>
+
+  <h2>배열데이터</h2>
+  <script>
+    let fruites = ['apple', 'banana', 'cherry'];
+
+    console.log(fruites[0]);
+    console.log(fruites[1]);
+    console.log(fruites[2]);
+  </script>
+
+  <h2>변수</h2>
+  <script>
+    let a = 5;
+    let b = 10;
+
+
+    console.log(a + b);
+    console.log(a - b);
+    console.log(a * b);
+    console.log(a / b);
+
+    a = 50;
+    // 재할당 후 계산이 달라짐
+
+
+    console.log(`a: ${a}`);
+    console.log(a + b);
+    console.log(a - b);
+    console.log(a * b);
+    console.log(a / b);
+
+  </script>
+
+  <h2>const</h2>
+  <script>
+    let a = 5;
+    let b = 10;
+
+
+    console.log(a + b);
+    console.log(`b:${b}`);
+    console.log(a * b);
+    console.log(a / b);
+
+    a = 50;
+
+    console.log(`a: ${a}`);
+    console.log(a + b);
+    console.log(a - b);
+    console.log(a * b);
+    console.log(a / b);
+
+    b = 100;
+    console.log(`b:${b}`);
+
+  </script>
 
 </body>
 
