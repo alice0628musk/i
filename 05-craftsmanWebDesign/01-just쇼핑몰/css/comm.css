@@ -325,14 +325,17 @@
 
 .logo-foot a {
   display: flex;
+  /* flex를 주고나서 개발자모드에서 flex 위치를 맞춰본다 */
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   height: 100px;
 }
 
+/*공중에 갑자기 글씨를 쓸때는 p테그를 준다  */
 .logo-foot p {
   padding-top: 5px;
+  /* 패딩탑 값으로 서로 띄워준다 */
 }
 
 .lst-sns {
@@ -341,7 +344,6 @@
 }
 
 .lst-sns img {
-  top: 0;
   width: 33px;
   height: 33px;
 }
@@ -353,6 +355,7 @@
 .lst-sns a {
   display: flex;
   align-items: center;
+  /* a값의 높이가 70px로 변해버려서 중앙정렬이 안됐던 거임 */
   height: 100px;
   line-height: 100px;
 }
